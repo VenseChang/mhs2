@@ -1,0 +1,2330 @@
+{
+    "(1) - 草食龍": {
+        "no": 1,
+        "name": {
+            "zh-hant": "草食龍",
+            "en": "Aptonoth"
+        },
+        "egg": "TRUE",
+        "normal": "力量",
+        "parts": {},
+        "nest": "-",
+        "weakness": "火"
+    },
+    "(2) - 首鳴龍": {
+        "no": 2,
+        "name": {
+            "zh-hant": "首鳴龍",
+            "en": "Larinoth"
+        },
+        "egg": "FALSE",
+        "normal": "技巧",
+        "parts": {},
+        "nest": "-",
+        "weakness": "水"
+    },
+    "(3) - 精靈鹿": {
+        "no": 3,
+        "name": {
+            "zh-hant": "精靈鹿",
+            "en": "Kelbi"
+        },
+        "egg": "FALSE",
+        "normal": null,
+        "parts": {},
+        "nest": "-"
+    },
+    "(4) - 迅猛龍": {
+        "no": 4,
+        "name": {
+            "zh-hant": "迅猛龍",
+            "en": "Velociprey"
+        },
+        "egg": "FALSE",
+        "normal": "速度",
+        "parts": {},
+        "nest": "-",
+        "weakness": "冰"
+    },
+    "(5) - 迅猛龍王": {
+        "no": 5,
+        "name": {
+            "zh-hant": "迅猛龍王",
+            "en": "Velocidrome"
+        },
+        "egg": "TRUE",
+        "normal": "速度",
+        "parts": {},
+        "angry": "力量",
+        "nest": "染色球",
+        "weakness": "冰"
+    },
+    "(6) - 搔鳥": {
+        "no": 6,
+        "name": {
+            "zh-hant": "搔鳥",
+            "en": "Kulu-Ya-Ku"
+        },
+        "egg": "TRUE",
+        "normal": "技巧",
+        "parts": {
+            "body": "打(岩石)"
+        },
+        "angry": "力量",
+        "nest": "打擊型破壞岩石",
+        "weakness": "水"
+    },
+    "(7) - 飛甲蟲(藍)": {
+        "no": 7,
+        "name": {
+            "zh-hant": "飛甲蟲(藍)",
+            "en": "Bnahabra (Blue)"
+        },
+        "egg": "FALSE",
+        "normal": "技巧",
+        "parts": {},
+        "nest": "-",
+        "weakness": "火"
+    },
+    "(8) - 盾蟲(黃)": {
+        "no": 8,
+        "name": {
+            "zh-hant": "盾蟲(黃)",
+            "en": "Konchu (Yellow)"
+        },
+        "egg": "FALSE",
+        "normal": "技巧",
+        "parts": {},
+        "nest": "-",
+        "weakness": "火"
+    },
+    "(9) - 怪鳥": {
+        "no": 9,
+        "name": {
+            "zh-hant": "怪鳥",
+            "en": "Yian Kut-Ku"
+        },
+        "egg": "TRUE",
+        "normal": "技巧",
+        "parts": {
+            "head": "刺"
+        },
+        "angry": "速度",
+        "nest": "刺類型破壞頭部",
+        "weakness": "冰"
+    },
+    "(10) - 野豬": {
+        "no": 10,
+        "name": {
+            "zh-hant": "野豬",
+            "en": "Bullfango"
+        },
+        "egg": "FALSE",
+        "normal": "力量",
+        "parts": {},
+        "nest": "-",
+        "weakness": "雷"
+    },
+    "(11) - 野豬王": {
+        "no": 11,
+        "name": {
+            "zh-hant": "野豬王",
+            "en": "Bulldrome"
+        },
+        "egg": "TRUE",
+        "normal": "力量",
+        "parts": {},
+        "nest": "染色球",
+        "weakness": "雷"
+    },
+    "(12) - 毒妖鳥": {
+        "no": 12,
+        "name": {
+            "zh-hant": "毒妖鳥",
+            "en": "Pukei-Pukei"
+        },
+        "egg": "TRUE",
+        "normal": "技巧",
+        "parts": {
+            "body": "斬",
+            "tail": "斬"
+        },
+        "angry": "力量",
+        "nest": "斬類型破壞尾巴",
+        "weakness": "雷"
+    },
+    "(13) - 背甲龍": {
+        "no": 13,
+        "name": {
+            "zh-hant": "背甲龍",
+            "en": "Apceros"
+        },
+        "egg": "TRUE",
+        "normal": "力量",
+        "parts": {},
+        "nest": "染色球",
+        "weakness": "雷"
+    },
+    "(14) - 垂皮龍(綠)": {
+        "no": 14,
+        "name": {
+            "zh-hant": "垂皮龍(綠)",
+            "en": "Slagtoth"
+        },
+        "egg": "FALSE",
+        "normal": "力量",
+        "parts": {
+            "head": "斬"
+        },
+        "nest": "-",
+        "weakness": "雷"
+    },
+    "(15) - 丸鳥": {
+        "no": 15,
+        "name": {
+            "zh-hant": "丸鳥",
+            "en": "Gargwa"
+        },
+        "egg": "FALSE",
+        "normal": "速度",
+        "parts": {},
+        "nest": "-",
+        "weakness": "火"
+    },
+    "(16) - 狗龍": {
+        "no": 16,
+        "name": {
+            "zh-hant": "狗龍",
+            "en": "Jaggi"
+        },
+        "egg": "FALSE",
+        "normal": "速度",
+        "parts": {},
+        "nest": "-",
+        "weakness": "火"
+    },
+    "(17) - 雌狗龍": {
+        "no": 17,
+        "name": {
+            "zh-hant": "雌狗龍",
+            "en": "Jaggia"
+        },
+        "egg": "FALSE",
+        "normal": "力量",
+        "parts": {},
+        "nest": "-",
+        "weakness": "火"
+    },
+    "(18) - 狗龍王": {
+        "no": 18,
+        "name": {
+            "zh-hant": "狗龍王",
+            "en": "Great Jaggi"
+        },
+        "egg": "TRUE",
+        "normal": "技巧",
+        "parts": {
+            "head": "刺"
+        },
+        "angry": "速度",
+        "nest": "染色球",
+        "weakness": "火"
+    },
+    "(19) - 水生獸": {
+        "no": 19,
+        "name": {
+            "zh-hant": "水生獸",
+            "en": "Ludroth"
+        },
+        "egg": "FALSE",
+        "normal": "力量",
+        "parts": {},
+        "nest": "-",
+        "weakness": "火"
+    },
+    "(20) - 水獸": {
+        "no": 20,
+        "name": {
+            "zh-hant": "水獸",
+            "en": "Royal Ludroth"
+        },
+        "egg": "TRUE",
+        "normal": "力量",
+        "parts": {
+            "head": "刺",
+            "abdomen": "斬"
+        },
+        "angry": "技巧",
+        "nest": "斬類型破壞腹部",
+        "weakness": "火"
+    },
+    "(21) - 鬼蛙": {
+        "no": 21,
+        "name": {
+            "zh-hant": "鬼蛙",
+            "en": "Tetsucabra"
+        },
+        "egg": "FALSE",
+        "normal": "力量",
+        "parts": {
+            "body": "斬"
+        },
+        "nest": "-",
+        "weakness": "水"
+    },
+    "(22) - 青熊獸": {
+        "no": 22,
+        "name": {
+            "zh-hant": "青熊獸",
+            "en": "Arzuros"
+        },
+        "egg": "FALSE",
+        "normal": "力量",
+        "parts": {
+            "abdomen": "斬/打",
+            "feet": "打"
+        },
+        "angry": "技巧",
+        "nest": "音爆彈暈眩",
+        "weakness": "火"
+    },
+    "(23) - 彩鳥": {
+        "no": 23,
+        "name": {
+            "zh-hant": "彩鳥",
+            "en": "Qurupeco"
+        },
+        "egg": "TRUE",
+        "normal": "技巧",
+        "parts": {
+            "head": "打",
+            "body": "斬"
+        },
+        "angry": "力量",
+        "nest": "打擊型破壞頭部",
+        "weakness": "冰"
+    },
+    "(24) - 青怪鳥": {
+        "no": 24,
+        "name": {
+            "zh-hant": "青怪鳥",
+            "en": "Blue Yian Kut-Ku"
+        },
+        "egg": "TRUE",
+        "normal": "技巧",
+        "parts": {
+            "head": "刺"
+        },
+        "angry": "速度",
+        "nest": "刺類型破壞頭部",
+        "weakness": "水"
+    },
+    "(25) - 轟龍": {
+        "no": 25,
+        "name": {
+            "zh-hant": "轟龍",
+            "en": "Tigrex"
+        },
+        "egg": "TRUE",
+        "normal": "速度",
+        "parts": {
+            "head": "斬",
+            "feet": "斬/打/刺"
+        },
+        "angry": "力量",
+        "nest": "麻痺陷阱命中後\n以單手劍破壞頭部",
+        "weakness": "雷"
+    },
+    "(26) - 一角龍": {
+        "no": 26,
+        "name": {
+            "zh-hant": "一角龍",
+            "en": "Monoblos"
+        },
+        "egg": "TRUE",
+        "normal": "速度",
+        "parts": {
+            "head": "刺",
+            "abdomen": "斬/刺",
+            "feet": "刺",
+            "tail": "刺"
+        },
+        "angry": "力量",
+        "nest": "麻痺狀態單手劍討伐",
+        "weakness": "雷"
+    },
+    "(27) - 浮空龍": {
+        "no": 27,
+        "name": {
+            "zh-hant": "浮空龍",
+            "en": "Paolumu"
+        },
+        "egg": "TRUE",
+        "normal": "技巧",
+        "parts": {
+            "head": "刺(頸袋)",
+            "body": "斬/打"
+        },
+        "angry": "速度",
+        "nest": "滑空狀態閃光彈",
+        "weakness": "火"
+    },
+    "(28) - 岩龍": {
+        "no": 28,
+        "name": {
+            "zh-hant": "岩龍",
+            "en": "Basarios"
+        },
+        "egg": "TRUE",
+        "normal": "技巧",
+        "parts": {
+            "head": "打",
+            "wing": "刺",
+            "abdomen": "打",
+            "tail": "斬"
+        },
+        "angry": "力量",
+        "nest": "破壞一部位就提升",
+        "weakness": "水"
+    },
+    "(29) - 黑狼鳥": {
+        "no": 29,
+        "name": {
+            "zh-hant": "黑狼鳥",
+            "en": "Yian Garuga"
+        },
+        "egg": "TRUE",
+        "normal": "技巧",
+        "parts": {
+            "head": "斬",
+            "tail": "斬"
+        },
+        "angry": "力量",
+        "nest": "憤怒時破壞頭部",
+        "weakness": "水"
+    },
+    "(30) - 尾錘龍": {
+        "no": 30,
+        "name": {
+            "zh-hant": "尾錘龍",
+            "en": "Duramboros"
+        },
+        "egg": "FALSE",
+        "normal": "力量",
+        "parts": {
+            "body": "打",
+            "feet": "斬",
+            "tail": "打"
+        },
+        "angry": "技巧",
+        "nest": "-",
+        "weakness": "火"
+    },
+    "(31) - 迅龍": {
+        "no": 31,
+        "name": {
+            "zh-hant": "迅龍",
+            "en": null
+        },
+        "egg": "TRUE",
+        "normal": "速度",
+        "parts": {
+            "head": "刺",
+            "abdomen": "刺",
+            "tail": "刺"
+        },
+        "angry": "技巧",
+        "nest": "落穴陷阱後攻擊",
+        "weakness": "雷"
+    },
+    "(32) - 雌火龍": {
+        "no": 32,
+        "name": {
+            "zh-hant": "雌火龍",
+            "en": "Rathian"
+        },
+        "egg": "TRUE",
+        "normal": "速度",
+        "parts": {
+            "body": "斬",
+            "tail": "斬"
+        },
+        "angry": "力量",
+        "nest": "火龍羈絆技攻擊",
+        "weakness": "龍"
+    },
+    "(33) - 波波": {
+        "no": 33,
+        "name": {
+            "zh-hant": "波波",
+            "en": "Popo"
+        },
+        "egg": "TRUE",
+        "normal": "力量",
+        "parts": {
+            "head": "斬"
+        },
+        "nest": "-",
+        "weakness": "火"
+    },
+    "(34) - 盾蟲(藍)": {
+        "no": 34,
+        "name": {
+            "zh-hant": "盾蟲(藍)",
+            "en": null
+        },
+        "egg": "FALSE",
+        "normal": "技巧",
+        "parts": {
+            "head": "打"
+        },
+        "nest": "-",
+        "weakness": "火"
+    },
+    "(35) - 飛甲蟲(綠)": {
+        "no": 35,
+        "name": {
+            "zh-hant": "飛甲蟲(綠)",
+            "en": null
+        },
+        "egg": "FALSE",
+        "normal": "技巧",
+        "parts": {
+            "head": "打"
+        },
+        "nest": "-",
+        "weakness": "火"
+    },
+    "(36) - 桃毛獸": {
+        "no": 36,
+        "name": {
+            "zh-hant": "桃毛獸",
+            "en": null
+        },
+        "egg": "FALSE",
+        "normal": "力量",
+        "parts": {
+            "head": "刺"
+        },
+        "nest": "-",
+        "weakness": "火"
+    },
+    "(37) - 桃毛獸王": {
+        "no": 37,
+        "name": {
+            "zh-hant": "桃毛獸王",
+            "en": "Congalala"
+        },
+        "egg": "TRUE",
+        "normal": "技巧",
+        "parts": {
+            "head": "打",
+            "body": "刺",
+            "tail": "斬"
+        },
+        "angry": "力量",
+        "nest": "以大錘破壞頭部",
+        "weakness": "火"
+    },
+    "(38) - 眠狗龍": {
+        "no": 38,
+        "name": {
+            "zh-hant": "眠狗龍",
+            "en": null
+        },
+        "egg": "FALSE",
+        "normal": "速度",
+        "parts": {
+            "head": "斬"
+        },
+        "angry": "技巧",
+        "nest": "-",
+        "weakness": "火"
+    },
+    "(39) - 眠狗龍王": {
+        "no": 39,
+        "name": {
+            "zh-hant": "眠狗龍王",
+            "en": "Great Baggi"
+        },
+        "egg": "TRUE",
+        "normal": "速度",
+        "parts": {
+            "head": "斬/刺"
+        },
+        "angry": "技巧",
+        "nest": "染色球",
+        "weakness": "火"
+    },
+    "(40) - 奇猿狐": {
+        "no": 40,
+        "name": {
+            "zh-hant": "奇猿狐",
+            "en": "Kecha Wacha"
+        },
+        "egg": "TRUE",
+        "normal": "速度",
+        "parts": {
+            "head": "斬",
+            "body": "斬",
+            "wing": "打(爪部位)",
+            "tail": "斬"
+        },
+        "angry": "技巧",
+        "nest": "以片手劍破壞頭部",
+        "weakness": "火"
+    },
+    "(41) - 毒怪鳥": {
+        "no": 41,
+        "name": {
+            "zh-hant": "毒怪鳥",
+            "en": "Gypceros"
+        },
+        "egg": "TRUE",
+        "normal": "力量",
+        "parts": {
+            "head": "刺",
+            "abdomen": "斬",
+            "tail": "斬"
+        },
+        "angry": "技巧",
+        "nest": "影蜘蛛的羈絆攻擊",
+        "weakness": "雷"
+    },
+    "(42) - 冰鮫幼鯊": {
+        "no": 42,
+        "name": {
+            "zh-hant": "冰鮫幼鯊",
+            "en": "Zamtrios"
+        },
+        "egg": "FALSE",
+        "normal": "技巧",
+        "parts": {
+            "head": "斬/刺"
+        },
+        "angry": "速度",
+        "nest": "-",
+        "weakness": "雷"
+    },
+    "(43) - 冰鮫鯊": {
+        "no": 43,
+        "name": {
+            "zh-hant": "冰鮫鯊",
+            "en": null
+        },
+        "egg": "TRUE",
+        "normal": "技 / 力(膨脹)",
+        "parts": {
+            "head": "打",
+            "abdomen": "斬",
+            "feet": "斬/打"
+        },
+        "angry": "速(冰甲)",
+        "nest": "膨脹時破壞腹部",
+        "weakness": "雷"
+    },
+    "(44) - 影蜘蛛": {
+        "no": 44,
+        "name": {
+            "zh-hant": "影蜘蛛",
+            "en": "Nerscylla"
+        },
+        "egg": "TRUE",
+        "normal": "技巧",
+        "parts": {
+            "head": "打",
+            "body": "刺",
+            "wing": "刺(刺部位)",
+            "abdomen": "斬",
+            "feet": "斬"
+        },
+        "angry": "速度",
+        "nest": "以火屬攻擊破壞針",
+        "weakness": "火"
+    },
+    "(45) - 土砂龍": {
+        "no": 45,
+        "name": {
+            "zh-hant": "土砂龍",
+            "en": "Barroth"
+        },
+        "egg": "TRUE",
+        "normal": "速 / 技(泥罩)",
+        "parts": {
+            "head": "打(泥罩)",
+            "body": "斬/斬(泥罩)",
+            "feet": "斬",
+            "tail": "刺(泥罩)"
+        },
+        "angry": "技巧",
+        "nest": "以水屬攻擊卸除泥罩",
+        "weakness": "火/水(泥罩)"
+    },
+    "(46) - 飛雷龍": {
+        "no": 46,
+        "name": {
+            "zh-hant": "飛雷龍",
+            "en": null
+        },
+        "egg": "TRUE",
+        "normal": "速度",
+        "parts": {
+            "body": "斬/打",
+            "feet": "斬",
+            "tail": "斬"
+        },
+        "angry": "技 / 力(帶電)",
+        "nest": "以狩獵笛破壞尾巴",
+        "weakness": "水"
+    },
+    "(47) - 奇怪龍": {
+        "no": 47,
+        "name": {
+            "zh-hant": "奇怪龍",
+            "en": "Khezu"
+        },
+        "egg": "TRUE",
+        "normal": "技巧",
+        "parts": {
+            "head": "刺",
+            "body": "打"
+        },
+        "angry": "力量",
+        "nest": "以骸蜘蛛的羈絆技能攻擊",
+        "weakness": "火"
+    },
+    "(48) - 紅怪龍": {
+        "no": 48,
+        "name": {
+            "zh-hant": "紅怪龍",
+            "en": "Red Khezu"
+        },
+        "egg": "TRUE",
+        "normal": "技巧 / 速度(帶電)",
+        "parts": {
+            "head": "刺",
+            "body": "打"
+        },
+        "nest": "弓破壞頭部",
+        "weakness": "火"
+    },
+    "(49) - 徹甲蟲": {
+        "no": 49,
+        "name": {
+            "zh-hant": "徹甲蟲",
+            "en": null
+        },
+        "egg": "FALSE",
+        "normal": "技巧",
+        "parts": {
+            "head": "打",
+            "abdomen": "刺"
+        },
+        "nest": "-",
+        "weakness": "雷"
+    },
+    "(50) - 重甲蟲": {
+        "no": 50,
+        "name": {
+            "zh-hant": "重甲蟲",
+            "en": null
+        },
+        "egg": "FALSE",
+        "normal": "技巧",
+        "parts": {
+            "head": "刺",
+            "body": "刺",
+            "wing": "刺(合體)",
+            "feet": "打"
+        },
+        "angry": "速度 / 力(合體)",
+        "nest": "-",
+        "weakness": "火"
+    },
+    "(51) - 白兔獸": {
+        "no": 51,
+        "name": {
+            "zh-hant": "白兔獸",
+            "en": "Lagombi"
+        },
+        "egg": "TRUE",
+        "normal": "速度",
+        "parts": {
+            "abdomen": "斬",
+            "feet": "斬"
+        },
+        "angry": "力量",
+        "nest": "以大劍破壞腹部",
+        "weakness": "火"
+    },
+    "(52) - 冰土砂龍(碎冰龍)": {
+        "no": 52,
+        "name": {
+            "zh-hant": "冰土砂龍(碎冰龍)",
+            "en": "Jade Barroth"
+        },
+        "egg": "TRUE",
+        "normal": "力 / 技(雪罩)",
+        "parts": {
+            "head": "打",
+            "body": "斬",
+            "feet": "打",
+            "tail": "刺"
+        },
+        "angry": "速度",
+        "nest": "以雷屬攻擊卸除雪罩",
+        "weakness": "雷"
+    },
+    "(53) - 蠻顎龍": {
+        "no": 53,
+        "name": {
+            "zh-hant": "蠻顎龍",
+            "en": "Anjanath"
+        },
+        "egg": "TRUE",
+        "normal": "速度",
+        "parts": {
+            "head": "刺(鼻子)",
+            "body": "刺"
+        },
+        "angry": "力量",
+        "nest": "以水屬攻擊破壞鼻子",
+        "weakness": "水"
+    },
+    "(54) - 巨獸": {
+        "no": 54,
+        "name": {
+            "zh-hant": "巨獸",
+            "en": "Gammoth"
+        },
+        "egg": "TRUE",
+        "normal": "力量",
+        "parts": {
+            "head": "打",
+            "body": "打",
+            "wing": "斬(鼻子)",
+            "tail": "斬"
+        },
+        "angry": "力量",
+        "nest": "羈絆技討伐",
+        "weakness": "火"
+    },
+    "(55) - 雷狼龍": {
+        "no": 55,
+        "name": {
+            "zh-hant": "雷狼龍",
+            "en": "Zinogre"
+        },
+        "egg": "TRUE",
+        "normal": "速度",
+        "parts": {
+            "head": "刺",
+            "body": "刺",
+            "tail": "斬"
+        },
+        "angry": "技巧(帶電) / 力量(超帶電)",
+        "nest": "以冰屬攻擊討伐",
+        "weakness": "冰"
+    },
+    "(56) - 冰牙龍": {
+        "no": 56,
+        "name": {
+            "zh-hant": "冰牙龍",
+            "en": "Barioth"
+        },
+        "egg": "TRUE",
+        "normal": "速度",
+        "parts": {
+            "abdomen": "斬",
+            "feet": "打(棘)",
+            "tail": "斬"
+        },
+        "angry": "力量",
+        "nest": "以火屬攻擊破壞棘",
+        "weakness": "火"
+    },
+    "(57) - 風漂龍": {
+        "no": 57,
+        "name": {
+            "zh-hant": "風漂龍",
+            "en": "Legiana"
+        },
+        "egg": "TRUE",
+        "normal": "速度 / 技巧(飛行)",
+        "parts": {
+            "head": "斬",
+            "body": "斬",
+            "wing": "斬"
+        },
+        "angry": "力量 / 技巧(飛行)",
+        "weakness": "雷"
+    },
+    "(58) - 垂皮龍(褐)": {
+        "no": 58,
+        "name": {
+            "zh-hant": "垂皮龍(褐)",
+            "en": null
+        },
+        "egg": "FALSE",
+        "normal": "力量",
+        "parts": {
+            "head": "斬/刺"
+        },
+        "nest": "-",
+        "weakness": "雷"
+    },
+    "(59) - 飛甲蟲(褐)": {
+        "no": 59,
+        "name": {
+            "zh-hant": "飛甲蟲(褐)",
+            "en": null
+        },
+        "egg": "FALSE",
+        "normal": "技巧",
+        "parts": {
+            "head": "打"
+        },
+        "nest": "-",
+        "weakness": "火"
+    },
+    "(60) - 盾蟲(赤)": {
+        "no": 60,
+        "name": {
+            "zh-hant": "盾蟲(赤)",
+            "en": null
+        },
+        "egg": "FALSE",
+        "normal": "技巧",
+        "parts": {
+            "body": "打"
+        },
+        "nest": "-",
+        "weakness": "火"
+    },
+    "(61) - 砂龍": {
+        "no": 61,
+        "name": {
+            "zh-hant": "砂龍",
+            "en": null
+        },
+        "egg": "FALSE",
+        "normal": "力量",
+        "parts": {
+            "head": "打"
+        },
+        "angry": "技巧",
+        "nest": "-",
+        "weakness": "冰"
+    },
+    "(62) - 盾蟹": {
+        "no": 62,
+        "name": {
+            "zh-hant": "盾蟹",
+            "en": null
+        },
+        "egg": "FALSE",
+        "normal": "技巧",
+        "parts": {
+            "head": "打"
+        },
+        "nest": "-",
+        "weakness": "雷"
+    },
+    "(63) - 熔岩獸": {
+        "no": 63,
+        "name": {
+            "zh-hant": "熔岩獸",
+            "en": null
+        },
+        "egg": "FALSE",
+        "normal": "技巧",
+        "parts": {
+            "head": "打"
+        },
+        "nest": "-",
+        "weakness": "水"
+    },
+    "(64) - 毒猛龍": {
+        "no": 64,
+        "name": {
+            "zh-hant": "毒猛龍",
+            "en": null
+        },
+        "egg": "FALSE",
+        "normal": "速度",
+        "parts": {
+            "head": "斬"
+        },
+        "nest": "-",
+        "weakness": "水"
+    },
+    "(65) - 毒猛龍王": {
+        "no": 65,
+        "name": {
+            "zh-hant": "毒猛龍王",
+            "en": "Iodrome"
+        },
+        "egg": "TRUE",
+        "normal": "速度",
+        "parts": {
+            "body": "刺"
+        },
+        "angry": "力量",
+        "nest": "染色球",
+        "weakness": "水"
+    },
+    "(66) - 痺猛龍": {
+        "no": 66,
+        "name": {
+            "zh-hant": "痺猛龍",
+            "en": null
+        },
+        "egg": "FALSE",
+        "normal": "速度",
+        "parts": {},
+        "nest": "-",
+        "weakness": "冰"
+    },
+    "(67) - 痺猛龍王": {
+        "no": 67,
+        "name": {
+            "zh-hant": "痺猛龍王",
+            "en": "Gendrome"
+        },
+        "egg": "TRUE",
+        "normal": "速度",
+        "parts": {
+            "head": "刺"
+        },
+        "angry": "技巧",
+        "nest": "染色球",
+        "weakness": "冰"
+    },
+    "(68) - 水龍": {
+        "no": 68,
+        "name": {
+            "zh-hant": "水龍",
+            "en": null
+        },
+        "egg": "FALSE",
+        "normal": "技巧",
+        "parts": {
+            "body": "刺",
+            "wing": "刺",
+            "tail": "刺"
+        },
+        "angry": "力量",
+        "nest": "-",
+        "weakness": "雷"
+    },
+    "(69) - 砂龍王": {
+        "no": 69,
+        "name": {
+            "zh-hant": "砂龍王",
+            "en": "Cephadrome"
+        },
+        "egg": "TRUE",
+        "normal": "速度",
+        "parts": {
+            "wing": "刺",
+            "abdomen": "打",
+            "tail": "斬"
+        },
+        "angry": "技巧",
+        "nest": "音爆彈解除潛行",
+        "weakness": "冰"
+    },
+    "(70) - 白猿狐": {
+        "no": 70,
+        "name": {
+            "zh-hant": "白猿狐",
+            "en": "Ash Kecha Wacha"
+        },
+        "egg": "TRUE",
+        "normal": "技巧",
+        "parts": {
+            "head": "斬",
+            "body": "斬",
+            "feet": "打(爪)",
+            "tail": "斬"
+        },
+        "angry": "速度",
+        "nest": "以水屬大劍破壞頭部",
+        "weakness": "水"
+    },
+    "(71) - 紫毒鳥": {
+        "no": 71,
+        "name": {
+            "zh-hant": "紫毒鳥",
+            "en": "Purple Gypceros"
+        },
+        "egg": "TRUE",
+        "normal": "技巧",
+        "parts": {
+            "head": "刺",
+            "abdomen": "斬",
+            "tail": "斬"
+        },
+        "angry": "力量",
+        "nest": "以銃槍破壞頭部",
+        "weakness": "火"
+    },
+    "(72) - 綠迅龍": {
+        "no": 72,
+        "name": {
+            "zh-hant": "綠迅龍",
+            "en": "Green Nargacuga"
+        },
+        "egg": "TRUE",
+        "normal": "速度",
+        "parts": {
+            "head": "刺",
+            "abdomen": "刺",
+            "tail": "斬"
+        },
+        "angry": "力量",
+        "nest": "地洞命中時攻擊",
+        "weakness": "雷"
+    },
+    "(73) - 角龍": {
+        "no": 73,
+        "name": {
+            "zh-hant": "角龍",
+            "en": "Diablos"
+        },
+        "egg": "TRUE",
+        "normal": "力量",
+        "parts": {
+            "head": "打",
+            "feet": "刺",
+            "tail": "斬"
+        },
+        "angry": "速度",
+        "nest": "音爆彈解除潛行，",
+        "weakness": "冰"
+    },
+    "(74) - 黑角龍": {
+        "no": 74,
+        "name": {
+            "zh-hant": "黑角龍",
+            "en": "Black Diablos"
+        },
+        "egg": "TRUE",
+        "normal": "力量",
+        "parts": {
+            "head": "打",
+            "feet": "刺",
+            "tail": "斬"
+        },
+        "angry": "速度",
+        "nest": "音爆彈解除潛行，",
+        "weakness": "冰"
+    },
+    "(75) - 白一角龍": {
+        "no": 75,
+        "name": {
+            "zh-hant": "白一角龍",
+            "en": "White Monoblos"
+        },
+        "egg": "TRUE",
+        "normal": "力量",
+        "parts": {
+            "head": "刺(角)",
+            "feet": "刺",
+            "tail": "刺"
+        },
+        "angry": "速度",
+        "nest": "麻痺狀態時以弓討伐",
+        "weakness": "冰"
+    },
+    "(76) - 紅彩鳥": {
+        "no": 76,
+        "name": {
+            "zh-hant": "紅彩鳥",
+            "en": "Crimson Qurupeco"
+        },
+        "egg": "TRUE",
+        "normal": "技巧",
+        "parts": {
+            "head": "打",
+            "body": "斬"
+        },
+        "angry": "速度",
+        "nest": "大錘破壞頭部",
+        "weakness": "冰"
+    },
+    "(77) - 泡狐龍": {
+        "no": 77,
+        "name": {
+            "zh-hant": "泡狐龍",
+            "en": "Mitzutsune"
+        },
+        "egg": "TRUE",
+        "normal": "技巧",
+        "parts": {
+            "body": "斬/打",
+            "feet": "斬",
+            "tail": "刺"
+        },
+        "angry": "速度",
+        "nest": "以電龍羈絆技討伐",
+        "weakness": "雷"
+    },
+    "(78) - 海龍": {
+        "no": 78,
+        "name": {
+            "zh-hant": "海龍",
+            "en": "Lagiacrus"
+        },
+        "egg": "TRUE",
+        "normal": "力量 / 技巧(蓄電)",
+        "parts": {
+            "body": "斬",
+            "abdomen": "打(背)",
+            "tail": "打"
+        },
+        "angry": "速度",
+        "nest": "以火龍種的羈絆技討伐",
+        "weakness": "火"
+    },
+    "(79) - 爆鎚龍": {
+        "no": 79,
+        "name": {
+            "zh-hant": "爆鎚龍",
+            "en": "Uragaan"
+        },
+        "egg": "TRUE",
+        "normal": "力量",
+        "parts": {
+            "head": "打",
+            "wing": "打(爆岩)",
+            "abdomen": "斬",
+            "tail": "斬"
+        },
+        "angry": "技巧",
+        "nest": "中毒異常狀態時討伐",
+        "weakness": "水"
+    },
+    "(80) - 大名蟹": {
+        "no": 80,
+        "name": {
+            "zh-hant": "大名蟹",
+            "en": null
+        },
+        "egg": "FALSE",
+        "normal": "技巧",
+        "parts": {
+            "body": "打",
+            "abdomen": "打(殼)",
+            "feet": "打(爪)"
+        },
+        "angry": "力量",
+        "nest": "-",
+        "weakness": "火"
+    },
+    "(81) - 紫盾大名蟹": {
+        "no": 81,
+        "name": {
+            "zh-hant": "紫盾大名蟹",
+            "en": null
+        },
+        "egg": "FALSE",
+        "normal": "技巧",
+        "parts": {
+            "body": "打",
+            "abdomen": "打(殼)",
+            "feet": "打(爪)"
+        },
+        "angry": "速度",
+        "nest": "-",
+        "weakness": "冰"
+    },
+    "(82) - 黑轟龍": {
+        "no": 82,
+        "name": {
+            "zh-hant": "黑轟龍",
+            "en": "Brute Tigrex"
+        },
+        "egg": "TRUE",
+        "normal": "力量",
+        "parts": {
+            "head": "斬",
+            "feet": "斬"
+        },
+        "angry": "速度",
+        "nest": "麻痺陷阱命中後",
+        "weakness": "水"
+    },
+    "(83) - 紫水獸": {
+        "no": 83,
+        "name": {
+            "zh-hant": "紫水獸",
+            "en": "Purple Ludroth"
+        },
+        "egg": "TRUE",
+        "normal": "力量",
+        "parts": {
+            "head": "刺",
+            "abdomen": "斬"
+        },
+        "angry": "技巧",
+        "nest": "以火屬銃槍破壞頭部",
+        "weakness": "火"
+    },
+    "(84) - 桃岩龍": {
+        "no": 84,
+        "name": {
+            "zh-hant": "桃岩龍",
+            "en": "Ruby Basarios"
+        },
+        "egg": "TRUE",
+        "normal": "技巧",
+        "parts": {
+            "head": "打",
+            "wing": "刺",
+            "abdomen": "打",
+            "tail": "斬"
+        },
+        "angry": "力量",
+        "nest": "破壞一部位就提升",
+        "weakness": "冰"
+    },
+    "(85) - 鎧龍": {
+        "no": 85,
+        "name": {
+            "zh-hant": "鎧龍",
+            "en": "Gravios"
+        },
+        "egg": "TRUE",
+        "normal": "力量",
+        "parts": {
+            "head": "打",
+            "abdomen": "打",
+            "feet": "斬"
+        },
+        "angry": "技巧",
+        "nest": "大爆桶破壞一部位就提升",
+        "weakness": "水"
+    },
+    "(86) - 甲蟲": {
+        "no": 86,
+        "name": {
+            "zh-hant": "甲蟲",
+            "en": null
+        },
+        "egg": "FALSE",
+        "normal": "技巧",
+        "parts": {},
+        "nest": "-",
+        "weakness": "火"
+    },
+    "(87) - 大雷光蟲": {
+        "no": 87,
+        "name": {
+            "zh-hant": "大雷光蟲",
+            "en": null
+        },
+        "egg": "FALSE",
+        "normal": "速度",
+        "parts": {
+            "head": "打"
+        },
+        "nest": "-",
+        "weakness": "水"
+    },
+    "(88) - 盾蟲(綠)": {
+        "no": 88,
+        "name": {
+            "zh-hant": "盾蟲(綠)",
+            "en": null
+        },
+        "egg": "FALSE",
+        "normal": "技巧",
+        "parts": {},
+        "nest": "-",
+        "weakness": "火"
+    },
+    "(89) - 奇面族": {
+        "no": 89,
+        "name": {
+            "zh-hant": "奇面族",
+            "en": null
+        },
+        "egg": "FALSE",
+        "normal": "技巧",
+        "parts": {
+            "head": "刺"
+        },
+        "nest": "-",
+        "weakness": "冰"
+    },
+    "(90) - 炮甲蟲": {
+        "no": 90,
+        "name": {
+            "zh-hant": "炮甲蟲",
+            "en": null
+        },
+        "egg": "FALSE",
+        "normal": "速度",
+        "parts": {
+            "head": "斬",
+            "abdomen": "刺",
+            "feet": "打"
+        },
+        "angry": "力量",
+        "nest": "-",
+        "weakness": "冰"
+    },
+    "(91) - 翠水龍": {
+        "no": 91,
+        "name": {
+            "zh-hant": "翠水龍",
+            "en": null
+        },
+        "egg": "FALSE",
+        "normal": "技巧",
+        "parts": {
+            "body": "打",
+            "wing": "刺(背)",
+            "tail": "斬"
+        },
+        "angry": "速度",
+        "nest": "-",
+        "weakness": "雷"
+    },
+    "(92) - 骸蜘蛛": {
+        "no": 92,
+        "name": {
+            "zh-hant": "骸蜘蛛",
+            "en": "Shrouded Nerscylla"
+        },
+        "egg": "TRUE",
+        "normal": "技巧",
+        "parts": {
+            "head": "打",
+            "body": "刺(胸)",
+            "abdomen": "斬",
+            "feet": "斬",
+            "tail": "刺(刺部位)"
+        },
+        "angry": "速度",
+        "nest": "冰屬弓破壞針",
+        "weakness": "冰"
+    },
+    "(93) - 綠毛獸王": {
+        "no": 93,
+        "name": {
+            "zh-hant": "綠毛獸王",
+            "en": "Emerald Congalala"
+        },
+        "egg": "TRUE",
+        "normal": "力量",
+        "parts": {
+            "head": "打",
+            "body": "刺",
+            "feet": "斬",
+            "tail": "斬"
+        },
+        "angry": "技巧",
+        "nest": "火屬笛子破壞頭部",
+        "weakness": "冰"
+    },
+    "(94) - 炎戈龍": {
+        "no": 94,
+        "name": {
+            "zh-hant": "炎戈龍",
+            "en": null
+        },
+        "egg": "FALSE",
+        "normal": "速度 / 力量(冒煙)",
+        "parts": {
+            "head": "斬/刺",
+            "body": "斬/刺",
+            "tail": "斬/刺"
+        },
+        "angry": "技巧",
+        "nest": "-",
+        "weakness": "水"
+    },
+    "(95) - 黑鎧龍": {
+        "no": 95,
+        "name": {
+            "zh-hant": "黑鎧龍",
+            "en": "Black Gravios"
+        },
+        "egg": "TRUE",
+        "normal": "力量",
+        "parts": {
+            "head": "打",
+            "abdomen": "打",
+            "feet": "斬"
+        },
+        "angry": "技巧",
+        "nest": "大爆桶破壞一部位就提升",
+        "weakness": "水"
+    },
+    "(96) - 白海龍": {
+        "no": 96,
+        "name": {
+            "zh-hant": "白海龍",
+            "en": "Ivory Lagiacrus"
+        },
+        "egg": "TRUE",
+        "normal": "速度 / 技巧(帶電)",
+        "parts": {
+            "body": "打",
+            "wing": "斬/背",
+            "abdomen": "打",
+            "tail": "刺"
+        },
+        "angry": "力量",
+        "nest": "以火龍種的羈絆技討伐",
+        "weakness": "龍"
+    },
+    "(97) - 碎龍": {
+        "no": 97,
+        "name": {
+            "zh-hant": "碎龍",
+            "en": "Brachydios"
+        },
+        "egg": "TRUE",
+        "normal": "力量",
+        "parts": {
+            "head": "斬",
+            "body": "斬",
+            "wing": "打(手)",
+            "tail": "刺"
+        },
+        "angry": "速度",
+        "nest": "水屬大錘破壞拳頭",
+        "weakness": "水"
+    },
+    "(98) - 滅盡龍": {
+        "no": 98,
+        "name": {
+            "zh-hant": "滅盡龍",
+            "en": null
+        },
+        "egg": "TRUE",
+        "normal": "技巧 / 力量(白刺)",
+        "parts": {},
+        "angry": "速度",
+        "weakness": "雷"
+    },
+    "(99) - 電龍": {
+        "no": 99,
+        "name": {
+            "zh-hant": "電龍",
+            "en": null
+        },
+        "egg": "TRUE",
+        "normal": "技巧 / 力量(帶電)",
+        "parts": {
+            "head": "打",
+            "wing": "斬",
+            "abdomen": "斬",
+            "tail": "斬"
+        },
+        "angry": "速度",
+        "nest": "巨獸羈絆技討伐",
+        "weakness": "冰"
+    },
+    "(100) - 斬龍": {
+        "no": 100,
+        "name": {
+            "zh-hant": "斬龍",
+            "en": null
+        },
+        "egg": "TRUE",
+        "normal": "力量 / 技巧(尾巴蓄火)",
+        "parts": {
+            "head": "打",
+            "body": "打/刺",
+            "tail": "X"
+        },
+        "angry": "速度(嘴巴蓄火)",
+        "nest": "以泡狐龍羈絆技討伐",
+        "weakness": "水"
+    },
+    "(101) - 凍戈龍": {
+        "no": 101,
+        "name": {
+            "zh-hant": "凍戈龍",
+            "en": null
+        },
+        "egg": "FALSE",
+        "normal": " 力量(有雪罩) / 技巧(無雪罩)",
+        "parts": {
+            "head": "打",
+            "body": "打",
+            "tail": "打"
+        },
+        "angry": "速度",
+        "nest": "-",
+        "weakness": "火"
+    },
+    "(102) - 爆鱗龍": {
+        "no": 102,
+        "name": {
+            "zh-hant": "爆鱗龍",
+            "en": null
+        },
+        "egg": "TRUE",
+        "normal": "速度",
+        "parts": {
+            "head": "打",
+            "wing": "刺",
+            "abdomen": "斬/打",
+            "tail": "斬"
+        },
+        "angry": "技巧",
+        "nest": "蛋只能去洞穴隨機出",
+        "weakness": "雷"
+    },
+    "(103) - 翼蛇龍": {
+        "no": 103,
+        "name": {
+            "zh-hant": "翼蛇龍",
+            "en": null
+        },
+        "egg": "FALSE",
+        "normal": "技巧",
+        "parts": {
+            "head": "打"
+        },
+        "nest": "-",
+        "weakness": "龍"
+    },
+    "(104) - 大蝕龍蟲": {
+        "no": 104,
+        "name": {
+            "zh-hant": "大蝕龍蟲",
+            "en": null
+        },
+        "egg": "FALSE",
+        "normal": "速度",
+        "parts": {
+            "head": "打"
+        },
+        "nest": "-",
+        "weakness": "雷"
+    },
+    "(105) - 飛甲蟲(紅)": {
+        "no": 105,
+        "name": {
+            "zh-hant": "飛甲蟲(紅)",
+            "en": null
+        },
+        "egg": "FALSE",
+        "normal": "技巧",
+        "parts": {},
+        "nest": "-",
+        "weakness": "火"
+    },
+    "(106) - 巨蜂": {
+        "no": 106,
+        "name": {
+            "zh-hant": "巨蜂",
+            "en": null
+        },
+        "egg": "FALSE",
+        "normal": "技巧",
+        "parts": {},
+        "nest": "-",
+        "weakness": "火"
+    },
+    "(107) - 風牙龍": {
+        "no": 107,
+        "name": {
+            "zh-hant": "風牙龍",
+            "en": "Sand Barioth"
+        },
+        "egg": "TRUE",
+        "normal": "速度",
+        "parts": {
+            "abdomen": "斬",
+            "feet": "打(棘)",
+            "tail": "斬"
+        },
+        "angry": "技巧",
+        "nest": "冰屬笛子破壞棘",
+        "weakness": "冰"
+    },
+    "(108) - 恐暴龍": {
+        "no": 108,
+        "name": {
+            "zh-hant": "恐暴龍",
+            "en": null
+        },
+        "egg": "TRUE",
+        "normal": "力量",
+        "parts": {
+            "head": "打",
+            "body": "刺",
+            "abdomen": "斬",
+            "tail": "斬"
+        },
+        "angry": "速度",
+        "nest": "    中毒異常狀態時，",
+        "weakness": "龍"
+    },
+    "(109) - 獄狼龍": {
+        "no": 109,
+        "name": {
+            "zh-hant": "獄狼龍",
+            "en": null
+        },
+        "egg": "TRUE",
+        "normal": "技巧 / 力量(龍活化)",
+        "parts": {
+            "head": "打",
+            "body": "刺",
+            "tail": "斬"
+        },
+        "angry": "速度",
+        "nest": "    爆破異常狀態時，",
+        "weakness": "雷"
+    },
+    "(110) - 千刃龍": {
+        "no": 110,
+        "name": {
+            "zh-hant": "千刃龍",
+            "en": "Seregios"
+        },
+        "egg": "TRUE",
+        "normal": "技巧",
+        "parts": {
+            "body": "斬",
+            "feet": "斬"
+        },
+        "angry": "速度",
+        "nest": "雷屬銃槍破壞頭部",
+        "weakness": "雷"
+    },
+    "(111) - 木桶艾路": {
+        "no": 111,
+        "name": {
+            "zh-hant": "木桶艾路",
+            "en": null
+        },
+        "egg": "FALSE",
+        "normal": "他只會放技能(觀察 / 迴避 / 逃跑)，一般攻擊只會有1點傷害，要放大爆彈桶炸牠，否則會逃跑。若有複數隻的話，就猜哪隻逃跑先炸。[一隻經驗1000(下位).12000(上位)]",
+        "parts": {}
+    },
+    "(112) - 火龍": {
+        "no": 112,
+        "name": {
+            "zh-hant": "火龍",
+            "en": "Rathalos"
+        },
+        "egg": "TRUE",
+        "normal": "力量 / 速度(飛行)",
+        "parts": {
+            "head": "打",
+            "body": "斬/打",
+            "tail": "斬"
+        },
+        "angry": "力量",
+        "nest": "以海龍種羈絆技討伐",
+        "weakness": "雷"
+    },
+    "(113) - 蒼火龍": {
+        "no": 113,
+        "name": {
+            "zh-hant": "蒼火龍",
+            "en": null
+        },
+        "egg": "TRUE",
+        "normal": "力量 / 速度(飛行)",
+        "parts": {
+            "head": "打",
+            "body": "斬",
+            "wing": "斬",
+            "tail": "斬"
+        },
+        "angry": "力量",
+        "nest": "以海龍種羈絆技討伐",
+        "weakness": "龍"
+    },
+    "(114) - 櫻火龍": {
+        "no": 114,
+        "name": {
+            "zh-hant": "櫻火龍",
+            "en": null
+        },
+        "egg": "TRUE",
+        "normal": "速度",
+        "parts": {
+            "body": "斬",
+            "tail": "打"
+        },
+        "angry": "力量",
+        "nest": "以蒼火龍羈絆技討伐",
+        "weakness": "龍"
+    },
+    "(115) - 雷顎龍": {
+        "no": 115,
+        "name": {
+            "zh-hant": "雷顎龍",
+            "en": "Fulgur Anjanath"
+        },
+        "egg": "TRUE",
+        "normal": "力量",
+        "parts": {
+            "body": "刺",
+            "feet": "打",
+            "tail": "斬"
+        },
+        "angry": "速度(帶電)",
+        "nest": "冰屬攻擊破壞鼻子",
+        "weakness": "冰"
+    },
+    "(116) - 白疾風迅龍": {
+        "no": 116,
+        "name": {
+            "zh-hant": "白疾風迅龍",
+            "en": null
+        },
+        "egg": "TRUE",
+        "normal": "技巧",
+        "parts": {
+            "head": "打",
+            "body": "斬",
+            "tail": "刺"
+        },
+        "angry": "速度",
+        "nest": "-",
+        "weakness": "雷"
+    },
+    "(117) - 金雷公雷狼龍": {
+        "no": 117,
+        "name": {
+            "zh-hant": "金雷公雷狼龍",
+            "en": null
+        },
+        "egg": "TRUE",
+        "normal": "力量",
+        "parts": {
+            "head": "斬",
+            "body": "打",
+            "tail": "斬"
+        },
+        "angry": "速度(真帶電)",
+        "nest": "-",
+        "weakness": "冰"
+    },
+    "(118) - 鏖魔角龍": {
+        "no": 118,
+        "name": {
+            "zh-hant": "鏖魔角龍",
+            "en": null
+        },
+        "egg": "TRUE",
+        "normal": "速度",
+        "parts": {
+            "head": "斬",
+            "abdomen": "打",
+            "feet": "打",
+            "tail": "斬"
+        },
+        "angry": "力量",
+        "nest": "-",
+        "weakness": "水"
+    },
+    "(119) - 荒鉤爪轟龍": {
+        "no": 119,
+        "name": {
+            "zh-hant": "荒鉤爪轟龍",
+            "en": null
+        },
+        "egg": "TRUE",
+        "normal": "力量",
+        "parts": {
+            "head": "斬",
+            "body": "打",
+            "feet": "斬/打"
+        },
+        "angry": "速度",
+        "nest": "-",
+        "weakness": "雷"
+    },
+    "(120) - 紫毒姬雌火龍": {
+        "no": 120,
+        "name": {
+            "zh-hant": "紫毒姬雌火龍",
+            "en": null
+        },
+        "egg": "TRUE",
+        "normal": "技巧",
+        "parts": {
+            "head": "打",
+            "abdomen": "打",
+            "tail": "斬"
+        },
+        "angry": "速度",
+        "nest": "-"
+    },
+    "(121) - 麒麟": {
+        "no": 121,
+        "name": {
+            "zh-hant": "麒麟",
+            "en": null
+        },
+        "egg": "TRUE",
+        "normal": "速度",
+        "parts": {
+            "head": "斬",
+            "body": "打"
+        },
+        "angry": "技巧",
+        "nest": "-",
+        "weakness": "火"
+    },
+    "(122) - 炎王龍": {
+        "no": 122,
+        "name": {
+            "zh-hant": "炎王龍",
+            "en": null
+        },
+        "egg": "TRUE",
+        "normal": "速度",
+        "parts": {
+            "head": "斬",
+            "wing": "斬",
+            "tail": "斬"
+        },
+        "angry": "力量 / 技巧(飛行)",
+        "nest": "-",
+        "weakness": "水"
+    },
+    "(123) - 金獅子": {
+        "no": 123,
+        "name": {
+            "zh-hant": "金獅子",
+            "en": null
+        },
+        "egg": "TRUE",
+        "normal": "力量",
+        "parts": {
+            "head": "打"
+        },
+        "angry": "依照施放的XX鬥氣(EX:速度鬥氣)",
+        "nest": "-",
+        "weakness": "冰"
+    },
+    "(124) - 鋼龍": {
+        "no": 124,
+        "name": {
+            "zh-hant": "鋼龍",
+            "en": null
+        },
+        "egg": "TRUE",
+        "normal": "技巧 / 速度(飛行)",
+        "parts": {
+            "head": "斬",
+            "tail": "刺"
+        },
+        "angry": "力量",
+        "nest": "-",
+        "weakness": "雷"
+    },
+    "(125) - 冰呪龍": {
+        "no": 125,
+        "name": {
+            "zh-hant": "冰呪龍",
+            "en": null
+        },
+        "egg": "TRUE",
+        "normal": "速度",
+        "parts": {
+            "head": "打",
+            "body": "斬",
+            "tail": "斬"
+        },
+        "angry": "技巧(冰罩) / 力量(飛行)",
+        "nest": "-",
+        "weakness": "火"
+    },
+    "(136) - 加爾克(無)": {
+        "no": 136,
+        "name": {
+            "zh-hant": "加爾克(無)",
+            "en": null
+        },
+        "egg": "FALSE",
+        "normal": null,
+        "parts": {},
+        "nest": "-"
+    },
+    "(137) - 加爾克(火)": {
+        "no": 137,
+        "name": {
+            "zh-hant": "加爾克(火)",
+            "en": null
+        },
+        "egg": "FALSE",
+        "normal": null,
+        "parts": {},
+        "nest": "-"
+    },
+    "(138) - 加爾克(水)": {
+        "no": 138,
+        "name": {
+            "zh-hant": "加爾克(水)",
+            "en": null
+        },
+        "egg": "FALSE",
+        "normal": null,
+        "parts": {},
+        "nest": "-"
+    },
+    "(139) - 加爾克(雷)": {
+        "no": 139,
+        "name": {
+            "zh-hant": "加爾克(雷)",
+            "en": null
+        },
+        "egg": "FALSE",
+        "normal": null,
+        "parts": {},
+        "nest": "-"
+    },
+    "(140) - 加爾克(冰)": {
+        "no": 140,
+        "name": {
+            "zh-hant": "加爾克(冰)",
+            "en": null
+        },
+        "egg": "FALSE",
+        "normal": null,
+        "parts": {},
+        "nest": "-"
+    },
+    "(141) - 加爾克(龍)": {
+        "no": 141,
+        "name": {
+            "zh-hant": "加爾克(龍)",
+            "en": null
+        },
+        "egg": "FALSE",
+        "normal": null,
+        "parts": {},
+        "nest": "-"
+    },
+    "(202) - 瘋狂的迅猛龍王": {
+        "no": 202,
+        "name": {
+            "zh-hant": "瘋狂的迅猛龍王",
+            "en": null
+        },
+        "egg": "FALSE",
+        "normal": "速度",
+        "parts": {},
+        "angry": "力量",
+        "nest": "X",
+        "weakness": "冰"
+    },
+    "(203) - 鬼神的浮空龍": {
+        "no": 203,
+        "name": {
+            "zh-hant": "鬼神的浮空龍",
+            "en": null
+        },
+        "egg": "FALSE",
+        "normal": "技巧",
+        "parts": {
+            "head": "刺(頸袋)",
+            "body": "斬/打"
+        },
+        "angry": "速度",
+        "nest": "X",
+        "weakness": "火"
+    },
+    "(204) - 無畏的岩龍": {
+        "no": 204,
+        "name": {
+            "zh-hant": "無畏的岩龍",
+            "en": null
+        },
+        "egg": "FALSE",
+        "normal": "技巧",
+        "parts": {
+            "head": "打",
+            "wing": "刺",
+            "abdomen": "打",
+            "tail": "斬"
+        },
+        "angry": "力量",
+        "nest": "X",
+        "weakness": "水"
+    },
+    "(205) - 莊嚴的尾錘龍": {
+        "no": 205,
+        "name": {
+            "zh-hant": "莊嚴的尾錘龍",
+            "en": null
+        },
+        "egg": "FALSE",
+        "normal": "力量",
+        "parts": {
+            "body": "打",
+            "feet": "斬",
+            "tail": "打"
+        },
+        "angry": "技巧",
+        "nest": "X",
+        "weakness": "火"
+    },
+    "(206) - 暴虐的蠻顎龍": {
+        "no": 206,
+        "name": {
+            "zh-hant": "暴虐的蠻顎龍",
+            "en": null
+        },
+        "egg": "FALSE",
+        "normal": "速度",
+        "parts": {},
+        "angry": "力量",
+        "weakness": "水"
+    },
+    "(208) - 蠱惑的重甲蟲": {
+        "no": 208,
+        "name": {
+            "zh-hant": "蠱惑的重甲蟲",
+            "en": null
+        },
+        "egg": "FALSE",
+        "normal": "技巧",
+        "parts": {
+            "head": "刺",
+            "body": "刺",
+            "wing": "刺(合體)",
+            "feet": "打"
+        },
+        "angry": "速度",
+        "nest": "-",
+        "weakness": "火"
+    },
+    "(211) - 鬥魂的角龍": {
+        "no": 211,
+        "name": {
+            "zh-hant": "鬥魂的角龍",
+            "en": null
+        },
+        "egg": "FALSE",
+        "normal": null,
+        "parts": {},
+        "weakness": "冰"
+    },
+    "(214) - 叛逆的雷狼龍": {
+        "no": 214,
+        "name": {
+            "zh-hant": "叛逆的雷狼龍",
+            "en": null
+        },
+        "egg": "FALSE",
+        "normal": "速度",
+        "parts": {},
+        "angry": "技巧(帶電) / 力量(超帶電)",
+        "nest": "X",
+        "weakness": "冰"
+    },
+    "(216) - 殘暴的黑轟龍": {
+        "no": 216,
+        "name": {
+            "zh-hant": "殘暴的黑轟龍",
+            "en": null
+        },
+        "egg": "FALSE",
+        "normal": "力量",
+        "parts": {},
+        "angry": "速度",
+        "weakness": "水"
+    },
+    "(1) - 蠻顎龍": {
+        "no": 1,
+        "name": {
+            "zh-hant": "蠻顎龍",
+            "en": null
+        },
+        "egg": null,
+        "normal": "速度",
+        "parts": {
+            "head": "斬/打/刺",
+            "body": "刺"
+        },
+        "angry": "力量",
+        "nest": "首領"
+    },
+    "(2) - 雌火龍": {
+        "no": 2,
+        "name": {
+            "zh-hant": "雌火龍",
+            "en": null
+        },
+        "egg": null,
+        "normal": "速度",
+        "parts": {
+            "body": "斬",
+            "tail": "斬"
+        },
+        "angry": "力量",
+        "nest": "首領"
+    },
+    "(3) - 徹甲蟲": {
+        "no": 3,
+        "name": {
+            "zh-hant": "徹甲蟲",
+            "en": null
+        },
+        "egg": null,
+        "normal": "技巧",
+        "parts": {
+            "head": "打",
+            "abdomen": "刺"
+        },
+        "nest": "首領"
+    },
+    "(4) - 重甲蟲": {
+        "no": 4,
+        "name": {
+            "zh-hant": "重甲蟲",
+            "en": null
+        },
+        "egg": null,
+        "normal": "技巧",
+        "parts": {
+            "head": "刺",
+            "body": "刺",
+            "wing": "刺",
+            "feet": "打"
+        },
+        "angry": "速度 / 力量(合體)",
+        "nest": "首領"
+    },
+    "(5) - 風漂龍": {
+        "no": 5,
+        "name": {
+            "zh-hant": "風漂龍",
+            "en": null
+        },
+        "egg": null,
+        "normal": "速度 / 技巧(飛行)",
+        "parts": {
+            "head": "斬",
+            "body": "斬",
+            "wing": "斬"
+        },
+        "angry": "力量",
+        "nest": "首領"
+    },
+    "(6) - 泡狐龍": {
+        "no": 6,
+        "name": {
+            "zh-hant": "泡狐龍",
+            "en": null
+        },
+        "egg": null,
+        "normal": "技巧",
+        "parts": {
+            "body": "斬/打",
+            "feet": "斬",
+            "tail": "刺"
+        },
+        "angry": "速度",
+        "nest": "首領"
+    },
+    "(7) - 滅盡龍": {
+        "no": 7,
+        "name": {
+            "zh-hant": "滅盡龍",
+            "en": null
+        },
+        "egg": null,
+        "normal": "技巧 / 力量(白刺)",
+        "parts": {},
+        "angry": "速度",
+        "nest": "首領",
+        "weakness": "雷"
+    },
+    "(8) - 斬龍": {
+        "no": 8,
+        "name": {
+            "zh-hant": "斬龍",
+            "en": null
+        },
+        "egg": null,
+        "normal": "力量 / 技巧(尾巴蓄火)",
+        "parts": {
+            "head": "斬",
+            "body": "打"
+        },
+        "angry": "速度(嘴巴蓄火)",
+        "nest": "首領"
+    },
+    "(9) - 凍戈龍": {
+        "no": 9,
+        "name": {
+            "zh-hant": "凍戈龍",
+            "en": null
+        },
+        "egg": null,
+        "normal": "技巧(無雪罩) / 力量(有雪罩)",
+        "parts": {
+            "head": "打",
+            "body": "打",
+            "tail": "打"
+        },
+        "angry": "速度",
+        "nest": "首領",
+        "weakness": "火"
+    },
+    "(10) - 爆鱗龍": {
+        "no": 10,
+        "name": {
+            "zh-hant": "爆鱗龍",
+            "en": null
+        },
+        "egg": null,
+        "normal": "速度",
+        "parts": {
+            "head": "打",
+            "wing": "刺",
+            "abdomen": "斬/打",
+            "tail": "斬"
+        },
+        "angry": "技巧",
+        "nest": "首領"
+    },
+    "(11) - 尾王": {
+        "no": 11,
+        "name": {
+            "zh-hant": "尾王",
+            "en": null
+        },
+        "egg": null,
+        "normal": "防雷",
+        "parts": {
+            "wing": "刺"
+        },
+        "angry": "打成註解",
+        "nest": "首領"
+    },
+    "(12) - 黑龍": {
+        "no": 12,
+        "name": {
+            "zh-hant": "黑龍",
+            "en": null
+        },
+        "egg": null,
+        "normal": "速度 / 地獄烈焰後轉力量",
+        "parts": {
+            "head": "斬",
+            "abdomen": "斬",
+            "feet": "刺",
+            "tail": "斬"
+        },
+        "angry": "技巧 / 快死會狂放力量招",
+        "nest": "首領"
+    }
+}
