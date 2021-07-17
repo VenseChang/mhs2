@@ -42,7 +42,7 @@ def translation(key):
 def render_info(text, mode, output = ''):
     monsters = monster_names(text)
     if mode == 'precise':
-        monsters = list(filter(lambda name: name[-len(text):] == text, monsters))
+        monsters = list(filter(lambda name: name.split()[-1] == text, monsters))
 
     for monster in monsters:
         data = datas[monster]

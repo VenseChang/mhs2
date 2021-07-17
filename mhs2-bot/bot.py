@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # ----------------
-from services.monster_info import render_info
+from services.monster_info import render_info, monster_names
 from services.callback import callback
 
 PORT = int(os.environ.get('PORT', 5000))
@@ -17,7 +17,6 @@ logger = logging.getLogger(__name__)
 
 # Telegram Bot Token
 TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
-
 
 # Define a few command handlers. These usually take the two arguments update and
 # context. Error handlers also receive the raised TelegramError object in error.
@@ -32,11 +31,17 @@ def help(update, context):
 def echo(update, context):
     """Echo the user message."""
     text = update.message.text
-    reply_markup = InlineKeyboardMarkup([
-        [InlineKeyboardButton('模糊搜尋', callback_data = 'render {} fuzzy'.format(text))],
-        [InlineKeyboardButton('精準搜尋', callback_data = 'query {} precise'.format(text))]
-    ])
-    update.message.reply_text('請選擇搜尋方式：', reply_markup = reply_markup)
+    total = len(monster_names(text))
+    if total > 10:
+        reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton('精準搜尋', callback_data = 'query {} precise 0'.format(text))]])
+        message = '符合筆數過多（{}筆），只支援精準搜索：'.format(total)
+    else:
+        reply_markup = InlineKeyboardMarkup([
+            [InlineKeyboardButton('模糊搜尋', callback_data = 'render {} fuzzy 0'.format(text))],
+            [InlineKeyboardButton('精準搜尋', callback_data = 'query {} precise 0'.format(text))]
+        ])
+        message = '符合結果共 {}筆，請選擇搜尋方式：'.format(total)
+    update.message.reply_text(message, reply_markup = reply_markup)
 
 def error(update, context):
     """Log Errors caused by Updates."""
