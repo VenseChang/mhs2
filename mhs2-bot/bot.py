@@ -1,20 +1,23 @@
-import logging
-from urllib.request import urlopen
-from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 import os
-import json
+import logging
+from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackQueryHandler
+from telegram import InlineKeyboardMarkup, InlineKeyboardButton
+from dotenv import load_dotenv
+load_dotenv()
+
+# ----------------
+from services.monster_info import render_info
+from services.callback import callback
 
 PORT = int(os.environ.get('PORT', 5000))
 
 # Enable logging
-logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-                    level=logging.INFO)
-
+logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 logger = logging.getLogger(__name__)
-TOKEN = ''
 
-url = 'https://raw.githubusercontent.com/VenseChang/mhs2/master/data/data.json'
-datas = json.loads(urlopen(url).read())
+# Telegram Bot Token
+TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
+
 
 # Define a few command handlers. These usually take the two arguments update and
 # context. Error handlers also receive the raised TelegramError object in error.
@@ -28,40 +31,12 @@ def help(update, context):
 
 def echo(update, context):
     """Echo the user message."""
-    output = ""
     text = update.message.text
-    targets = list(filter(lambda name: text in name , datas.keys()))
-    for target in targets:
-        data = datas[target]
-        output += "No. {}\n".format(data['no'])
-        output += "名稱：         {}\n".format(' / '.join(filter(lambda x: x, [data['name']['zh-hant'], data['name']['en']])))
-        output += "可孵蛋?       {}\n".format('O' if data['egg'] or False else 'X')
-        output += "普通狀態： {}\n".format(data['normal'])
-        if 'angry' in data:
-            output += "生氣狀態： {}\n".format(data['angry'])
-        if 'nest' in data:
-            output += "歸巢加成： {}\n".format(data['nest'])
-        if 'weakness' in data:
-            output += "弱點屬性： {}\n".format(data['weakness'])
-        if len(data['parts']) > 0:
-            output += "部位破壞：\n"
-            if 'head' in data['parts']:
-                output += "・ 頭    ： {}\n".format(data['parts']['head'])
-            if 'body' in data['parts']:
-                output += "・ 身體： {}\n".format(data['parts']['body'])
-            if 'wing' in data['parts']:
-                output += "・ 翅膀： {}\n".format(data['parts']['wing'])
-            if 'abdomen' in data['parts']:
-                output += "・ 腹部： {}\n".format(data['parts']['abdomen'])
-            if 'feet' in data['parts']:
-                output += "・ 腳    ： {}\n".format(data['parts']['feet'])
-            if 'tail' in data['parts']:
-                output += "・ 尾巴： {}\n".format(data['parts']['tail'])
-        if len(targets) > 1:
-            output += "\n"
-    if len(output) == 0:
-        output = "您輸入的關鍵字找不到對應的魔物"
-    update.message.reply_text(output)
+    reply_markup = InlineKeyboardMarkup([
+        [InlineKeyboardButton('模糊搜尋', callback_data = 'render {} fuzzy'.format(text))],
+        [InlineKeyboardButton('精準搜尋', callback_data = 'query {} precise'.format(text))]
+    ])
+    update.message.reply_text('請選擇搜尋方式：', reply_markup = reply_markup)
 
 def error(update, context):
     """Log Errors caused by Updates."""
@@ -81,6 +56,7 @@ def main():
     dp.add_handler(CommandHandler("start", start))
     dp.add_handler(CommandHandler("help", help))
 
+    updater.dispatcher.add_handler(CallbackQueryHandler(callback))
     # on noncommand i.e message - echo the message on Telegram
     dp.add_handler(MessageHandler(Filters.text, echo))
 
@@ -91,7 +67,7 @@ def main():
     updater.start_webhook(listen="0.0.0.0",
                           port=int(PORT),
                           url_path=TOKEN)
-    updater.bot.setWebhook('https://vense-mhs2.herokuapp.com/' + TOKEN)
+    updater.bot.setWebhook(os.getenv('WEBHOOK_URL') + TOKEN)
 
     # Run the bot until you press Ctrl-C or the process receives SIGINT,
     # SIGTERM or SIGABRT. This should be used most of the time, since
