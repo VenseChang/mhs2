@@ -1,7 +1,7 @@
 import os
 import logging
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackQueryHandler
-from telegram import InlineKeyboardMarkup, InlineKeyboardButton
+from telegram import InlineKeyboardMarkup, InlineKeyboardButton, ParseMode
 from dotenv import load_dotenv
 load_dotenv()
 
@@ -26,26 +26,39 @@ def start(update, context):
 
 def help(update, context):
     """Send a message when the command /help is issued."""
-    update.message.reply_text('Help!')
+    message = "/eggs： 蛋紋樣式一欄表"
+    update.message.reply_text(message, parse_mode = ParseMode.MARKDOWN)
 
 def echo(update, context):
     """Echo the user message."""
+    reply_markup = None
     text = update.message.text
     total = len(monster_names(text))
-    if total > 10:
-        reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton('精準搜尋', callback_data = 'query {} precise 0'.format(text))]])
-        message = '符合筆數過多（{}筆），只支援精準搜索：'.format(total)
-    else:
+    if total == 0:
+        message = '查無符合名稱的魔物！'
+    elif total == 1:
+        message = render_info(text, 'fuzzy')
+    elif total <= 10:
         reply_markup = InlineKeyboardMarkup([
             [InlineKeyboardButton('模糊搜尋', callback_data = 'render {} fuzzy 0'.format(text))],
             [InlineKeyboardButton('精準搜尋', callback_data = 'query {} precise 0'.format(text))]
         ])
         message = '符合結果共 {}筆，請選擇搜尋方式：'.format(total)
+    else:
+        reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton('精準搜尋', callback_data = 'query {} precise 0'.format(text))]])
+        message = '符合筆數過多（{}筆），只支援精準搜索：'.format(total)
     update.message.reply_text(message, reply_markup = reply_markup)
 
 def error(update, context):
     """Log Errors caused by Updates."""
     logger.warning('Update "%s" caused error "%s"', update, context.error)
+
+def eggs(update, context):
+    url = 'https://github.com/VenseChang/mhs2/blob/master/data/images/eggs.jpeg?raw=true'
+    caption = '資料來源：巴哈姆特[【攻略】分享蛋紋樣式一欄表](https://forum.gamer.com.tw/C.php?bsn=5786&snA=162432&tnum=1&subbsn=11)'
+    update.message.reply_photo(url,
+                               caption = caption,
+                               parse_mode = ParseMode.MARKDOWN_V2)
 
 def main():
     """Start the bot."""
@@ -60,6 +73,7 @@ def main():
     # on different commands - answer in Telegram
     dp.add_handler(CommandHandler("start", start))
     dp.add_handler(CommandHandler("help", help))
+    dp.add_handler(CommandHandler("eggs", eggs))
 
     updater.dispatcher.add_handler(CallbackQueryHandler(callback))
     # on noncommand i.e message - echo the message on Telegram
