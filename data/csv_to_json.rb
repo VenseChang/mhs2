@@ -23,6 +23,7 @@ csv.each do |row|
   angry     = row['生氣狀態']
   nest      = row['歸巢加成']
   weakness  = row['弱點屬性']
+  part      = row['一般（非部位時）']
   head      = row['頭部']
   body      = row['身體']
   wing      = row['翅膀']
@@ -47,6 +48,7 @@ csv.each do |row|
   json[key][:angry] = angry if present?(angry)
   json[key][:nest] = nest if present?(nest)
   json[key][:weakness] = weakness if present?(weakness)
+  json[key][:parts][:normal] = part if present?(part)
   json[key][:parts][:head] = head if present?(head)
   json[key][:parts][:body] = body if present?(body)
   json[key][:parts][:wing] = wing if present?(wing)
@@ -55,6 +57,6 @@ csv.each do |row|
   json[key][:parts][:tail] = tail if present?(tail)
 end
 
-file = File.open('data.json', 'wb')
+file = File.open('data-staging.json', 'wb')
 file.write(json.to_json)
 file.close
