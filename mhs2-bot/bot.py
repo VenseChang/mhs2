@@ -55,7 +55,7 @@ def error(update, context):
 
 def eggs(update, context):
     url = 'https://github.com/VenseChang/mhs2/blob/master/data/images/eggs.jpeg?raw=true'
-    caption = '資料來源：巴哈姆特[【攻略】分享蛋紋樣式一欄表](https://forum.gamer.com.tw/C.php?bsn=5786&snA=162432&tnum=1&subbsn=11)'
+    caption = '資料來源：[【攻略】分享蛋紋樣式一欄表](https://forum.gamer.com.tw/C.php?bsn=5786&snA=162432&tnum=1&subbsn=11)\n由版友 sailpg4（小傲雪）整理'
     update.message.reply_photo(url,
                                caption = caption,
                                parse_mode = ParseMode.MARKDOWN_V2)

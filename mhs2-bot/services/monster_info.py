@@ -30,6 +30,7 @@ def translation(key):
         'angry': '生氣狀態： ',
         'nest': '歸巢加成： ',
         'weakness': '弱點屬性： ',
+        'part_normal': '・ 一般（非部位時）： ',
         'head': '・ 頭： ',
         'feet': '・ 腳： ',
         'body': '・ 身體： ',
@@ -51,9 +52,11 @@ def render_info(text, mode, output = ''):
                 output += "{}{}\n".format(translation(key), monster_info(key, data))
         if len(data['parts']) > 0:
             output += "部位破壞：\n"
-            for key in ['head', 'feet', 'body', 'wing', 'abdomen', 'tail']:
+            for key in ['normal', 'head', 'feet', 'body', 'wing', 'abdomen', 'tail']:
                 if key in data['parts']:
-                    output += "{}{}\n".format(translation(key), data['parts'][key])
+                    value = data['parts'][key]
+                    key = key if key != 'normal' else 'part_normal'
+                    output += "{}{}\n".format(translation(key), value)
         if len(monsters) > 1:
             output += "\n"
     return output or "您輸入的關鍵字找不到對應的魔物"
