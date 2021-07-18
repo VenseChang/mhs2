@@ -42,7 +42,9 @@
         },
         "egg": "FALSE",
         "normal": "速度",
-        "parts": {},
+        "parts": {
+            "normal": "斬"
+        },
         "nest": "-",
         "weakness": "冰"
     },
@@ -54,7 +56,9 @@
         },
         "egg": "TRUE",
         "normal": "速度",
-        "parts": {},
+        "parts": {
+            "normal": "斬"
+        },
         "angry": "力量",
         "nest": "染色球",
         "weakness": "冰"
@@ -82,7 +86,9 @@
         },
         "egg": "FALSE",
         "normal": "技巧",
-        "parts": {},
+        "parts": {
+            "normal": "打"
+        },
         "nest": "-",
         "weakness": "火"
     },
@@ -94,7 +100,9 @@
         },
         "egg": "FALSE",
         "normal": "技巧",
-        "parts": {},
+        "parts": {
+            "normal": "打"
+        },
         "nest": "-",
         "weakness": "火"
     },
@@ -121,7 +129,9 @@
         },
         "egg": "FALSE",
         "normal": "力量",
-        "parts": {},
+        "parts": {
+            "normal": "斬"
+        },
         "nest": "-",
         "weakness": "雷"
     },
@@ -133,7 +143,9 @@
         },
         "egg": "TRUE",
         "normal": "力量",
-        "parts": {},
+        "parts": {
+            "normal": "斬"
+        },
         "nest": "染色球",
         "weakness": "雷"
     },
@@ -161,7 +173,9 @@
         },
         "egg": "TRUE",
         "normal": "力量",
-        "parts": {},
+        "parts": {
+            "normal": "打"
+        },
         "nest": "染色球",
         "weakness": "雷"
     },
@@ -174,6 +188,7 @@
         "egg": "FALSE",
         "normal": "力量",
         "parts": {
+            "normal": "斬",
             "head": "斬"
         },
         "nest": "-",
@@ -187,7 +202,9 @@
         },
         "egg": "FALSE",
         "normal": "速度",
-        "parts": {},
+        "parts": {
+            "normal": "刺"
+        },
         "nest": "-",
         "weakness": "火"
     },
@@ -199,7 +216,9 @@
         },
         "egg": "FALSE",
         "normal": "速度",
-        "parts": {},
+        "parts": {
+            "normal": "斬"
+        },
         "nest": "-",
         "weakness": "火"
     },
@@ -211,7 +230,9 @@
         },
         "egg": "FALSE",
         "normal": "力量",
-        "parts": {},
+        "parts": {
+            "normal": "刺"
+        },
         "nest": "-",
         "weakness": "火"
     },
@@ -224,6 +245,7 @@
         "egg": "TRUE",
         "normal": "技巧",
         "parts": {
+            "normal": "斬",
             "head": "刺"
         },
         "angry": "速度",
@@ -238,7 +260,9 @@
         },
         "egg": "FALSE",
         "normal": "力量",
-        "parts": {},
+        "parts": {
+            "normal": "打"
+        },
         "nest": "-",
         "weakness": "火"
     },
@@ -267,6 +291,7 @@
         "egg": "FALSE",
         "normal": "力量",
         "parts": {
+            "normal": "斬",
             "body": "斬"
         },
         "nest": "-",
@@ -297,6 +322,7 @@
         "egg": "TRUE",
         "normal": "技巧",
         "parts": {
+            "normal": "斬",
             "head": "打",
             "body": "斬"
         },
@@ -412,6 +438,7 @@
         "egg": "FALSE",
         "normal": "力量",
         "parts": {
+            "normal": "打",
             "body": "打",
             "feet": "斬",
             "tail": "打"
@@ -429,6 +456,7 @@
         "egg": "TRUE",
         "normal": "速度",
         "parts": {
+            "normal": "刺",
             "head": "刺",
             "abdomen": "刺",
             "tail": "刺"
@@ -462,6 +490,7 @@
         "egg": "TRUE",
         "normal": "力量",
         "parts": {
+            "normal": "斬",
             "head": "斬"
         },
         "nest": "-",
@@ -476,6 +505,7 @@
         "egg": "FALSE",
         "normal": "技巧",
         "parts": {
+            "normal": "打",
             "head": "打"
         },
         "nest": "-",
@@ -490,6 +520,7 @@
         "egg": "FALSE",
         "normal": "技巧",
         "parts": {
+            "normal": "打",
             "head": "打"
         },
         "nest": "-",
@@ -504,6 +535,7 @@
         "egg": "FALSE",
         "normal": "力量",
         "parts": {
+            "normal": "刺",
             "head": "刺"
         },
         "nest": "-",
@@ -535,6 +567,7 @@
         "egg": "FALSE",
         "normal": "速度",
         "parts": {
+            "normal": "刺",
             "head": "斬"
         },
         "angry": "技巧",
@@ -600,6 +633,7 @@
         "egg": "FALSE",
         "normal": "技巧",
         "parts": {
+            "normal": "斬",
             "head": "斬/刺"
         },
         "angry": "速度",
@@ -686,6 +720,7 @@
         "egg": "TRUE",
         "normal": "技巧",
         "parts": {
+            "normal": "打",
             "head": "刺",
             "body": "打"
         },
@@ -717,6 +752,7 @@
         "egg": "FALSE",
         "normal": "技巧",
         "parts": {
+            "normal": "刺",
             "head": "打",
             "abdomen": "刺"
         },
@@ -784,6 +820,7 @@
         "egg": "TRUE",
         "normal": "速度",
         "parts": {
+            "normal": "刺",
             "head": "刺(鼻子)",
             "body": "刺"
         },
@@ -800,9 +837,11 @@
         "egg": "TRUE",
         "normal": "力量",
         "parts": {
+            "normal": "打",
             "head": "打",
             "body": "打",
             "wing": "斬(鼻子)",
+            "feet": "打",
             "tail": "斬"
         },
         "angry": "力量",
@@ -868,6 +907,7 @@
         "egg": "FALSE",
         "normal": "力量",
         "parts": {
+            "normal": "斬",
             "head": "斬/刺"
         },
         "nest": "-",
@@ -882,6 +922,7 @@
         "egg": "FALSE",
         "normal": "技巧",
         "parts": {
+            "normal": "打",
             "head": "打"
         },
         "nest": "-",
@@ -896,6 +937,7 @@
         "egg": "FALSE",
         "normal": "技巧",
         "parts": {
+            "normal": "打",
             "body": "打"
         },
         "nest": "-",
@@ -910,6 +952,7 @@
         "egg": "FALSE",
         "normal": "力量",
         "parts": {
+            "normal": "打",
             "head": "打"
         },
         "angry": "技巧",
@@ -925,6 +968,7 @@
         "egg": "FALSE",
         "normal": "技巧",
         "parts": {
+            "normal": "打",
             "head": "打"
         },
         "nest": "-",
@@ -939,6 +983,7 @@
         "egg": "FALSE",
         "normal": "技巧",
         "parts": {
+            "normal": "打",
             "head": "打"
         },
         "nest": "-",
@@ -953,6 +998,7 @@
         "egg": "FALSE",
         "normal": "速度",
         "parts": {
+            "normal": "斬",
             "head": "斬"
         },
         "nest": "-",
@@ -981,7 +1027,9 @@
         },
         "egg": "FALSE",
         "normal": "速度",
-        "parts": {},
+        "parts": {
+            "normal": "斬"
+        },
         "nest": "-",
         "weakness": "冰"
     },
@@ -994,6 +1042,7 @@
         "egg": "TRUE",
         "normal": "速度",
         "parts": {
+            "normal": "斬",
             "head": "刺"
         },
         "angry": "技巧",
@@ -1179,6 +1228,7 @@
         "egg": "TRUE",
         "normal": "力量 / 技巧(蓄電)",
         "parts": {
+            "normal": "斬",
             "body": "斬",
             "abdomen": "打(背)",
             "tail": "打"
@@ -1196,6 +1246,7 @@
         "egg": "TRUE",
         "normal": "力量",
         "parts": {
+            "normal": "斬、岩石用打",
             "head": "打",
             "wing": "打(爆岩)",
             "abdomen": "斬",
@@ -1314,7 +1365,9 @@
         },
         "egg": "FALSE",
         "normal": "技巧",
-        "parts": {},
+        "parts": {
+            "normal": "打"
+        },
         "nest": "-",
         "weakness": "火"
     },
@@ -1327,6 +1380,7 @@
         "egg": "FALSE",
         "normal": "速度",
         "parts": {
+            "normal": "打",
             "head": "打"
         },
         "nest": "-",
@@ -1340,7 +1394,9 @@
         },
         "egg": "FALSE",
         "normal": "技巧",
-        "parts": {},
+        "parts": {
+            "normal": "打"
+        },
         "nest": "-",
         "weakness": "火"
     },
@@ -1353,6 +1409,7 @@
         "egg": "FALSE",
         "normal": "技巧",
         "parts": {
+            "normal": "打",
             "head": "刺"
         },
         "nest": "-",
@@ -1472,6 +1529,7 @@
         "egg": "TRUE",
         "normal": "速度 / 技巧(帶電)",
         "parts": {
+            "normal": "打",
             "body": "打",
             "wing": "斬/背",
             "abdomen": "打",
@@ -1507,7 +1565,9 @@
         },
         "egg": "TRUE",
         "normal": "技巧 / 力量(白刺)",
-        "parts": {},
+        "parts": {
+            "normal": "斬(無刺)、打(白刺)"
+        },
         "angry": "速度",
         "weakness": "雷"
     },
@@ -1538,8 +1598,8 @@
         "egg": "TRUE",
         "normal": "力量 / 技巧(尾巴蓄火)",
         "parts": {
-            "head": "打",
-            "body": "打/刺",
+            "head": "刺",
+            "body": "打",
             "tail": "X"
         },
         "angry": "速度(嘴巴蓄火)",
@@ -1604,6 +1664,7 @@
         "egg": "FALSE",
         "normal": "速度",
         "parts": {
+            "normal": "打",
             "head": "打"
         },
         "nest": "-",
@@ -1694,7 +1755,9 @@
         "egg": "TRUE",
         "normal": "技巧",
         "parts": {
+            "head": "刺",
             "body": "斬",
+            "wing": "刺",
             "feet": "斬"
         },
         "angry": "速度",
@@ -1709,7 +1772,10 @@
         },
         "egg": "FALSE",
         "normal": "他只會放技能(觀察 / 迴避 / 逃跑)，一般攻擊只會有1點傷害，要放大爆彈桶炸牠，否則會逃跑。若有複數隻的話，就猜哪隻逃跑先炸。[一隻經驗1000(下位).12000(上位)]",
-        "parts": {}
+        "parts": {
+            "normal": "爆桶"
+        },
+        "weakness": "無視防禦的招"
     },
     "(112) - 火龍": {
         "no": 112,
@@ -1857,12 +1923,15 @@
         "egg": "TRUE",
         "normal": "技巧",
         "parts": {
-            "head": "打",
-            "abdomen": "打",
-            "tail": "斬"
+            "normal": "打",
+            "head": "斬/打",
+            "wing": "斬/打(背部)",
+            "abdomen": "斬/打",
+            "tail": "斬/打"
         },
         "angry": "速度",
-        "nest": "-"
+        "nest": "-",
+        "weakness": "龍"
     },
     "(121) - 麒麟": {
         "no": 121,
@@ -1873,6 +1942,7 @@
         "egg": "TRUE",
         "normal": "速度",
         "parts": {
+            "normal": "斬/打",
             "head": "斬",
             "body": "打"
         },
@@ -1889,6 +1959,7 @@
         "egg": "TRUE",
         "normal": "速度",
         "parts": {
+            "normal": "斬/刺/打",
             "head": "斬",
             "wing": "斬",
             "tail": "斬"
@@ -1906,7 +1977,8 @@
         "egg": "TRUE",
         "normal": "力量",
         "parts": {
-            "head": "打"
+            "head": "打",
+            "feet": "斬"
         },
         "angry": "依照施放的XX鬥氣(EX:速度鬥氣)",
         "nest": "-",
@@ -1921,7 +1993,8 @@
         "egg": "TRUE",
         "normal": "技巧 / 速度(飛行)",
         "parts": {
-            "head": "斬",
+            "normal": "打",
+            "head": "打",
             "tail": "刺"
         },
         "angry": "力量",
@@ -1937,6 +2010,7 @@
         "egg": "TRUE",
         "normal": "速度",
         "parts": {
+            "normal": "打(冰結鱗狀態)",
             "head": "打",
             "body": "斬",
             "tail": "斬"
@@ -2010,6 +2084,16 @@
         "normal": null,
         "parts": {},
         "nest": "-"
+    },
+    "(201) - 大木桶艾路": {
+        "no": 201,
+        "name": {
+            "zh-hant": "大木桶艾路",
+            "en": null
+        },
+        "egg": null,
+        "normal": "他只會放技能(觀察/迴避/逃跑)，一般攻擊只會有1點傷害，要放大爆彈桶炸牠，否則會逃跑。若有複數隻的話，就猜哪隻逃跑先炸。[一隻經驗1000(下位).12000(上位)]",
+        "parts": {}
     },
     "(202) - 瘋狂的迅猛龍王": {
         "no": 202,
@@ -2087,6 +2171,17 @@
         "angry": "力量",
         "weakness": "水"
     },
+    "(207) - 狠毒的影蜘蛛": {
+        "no": 207,
+        "name": {
+            "zh-hant": "狠毒的影蜘蛛",
+            "en": null
+        },
+        "egg": null,
+        "normal": "技巧",
+        "parts": {},
+        "angry": "速度"
+    },
     "(208) - 蠱惑的重甲蟲": {
         "no": 208,
         "name": {
@@ -2105,6 +2200,16 @@
         "nest": "-",
         "weakness": "火"
     },
+    "(209) - 凜然的冰牙龍": {
+        "no": 209,
+        "name": {
+            "zh-hant": "凜然的冰牙龍",
+            "en": null
+        },
+        "egg": null,
+        "normal": "速度",
+        "parts": {}
+    },
     "(211) - 鬥魂的角龍": {
         "no": 211,
         "name": {
@@ -2115,6 +2220,26 @@
         "normal": null,
         "parts": {},
         "weakness": "冰"
+    },
+    "(212) - 貪婪的轟龍": {
+        "no": 212,
+        "name": {
+            "zh-hant": "貪婪的轟龍",
+            "en": null
+        },
+        "egg": null,
+        "normal": null,
+        "parts": {}
+    },
+    "(213) - 虛榮的綠迅龍": {
+        "no": 213,
+        "name": {
+            "zh-hant": "虛榮的綠迅龍",
+            "en": null
+        },
+        "egg": null,
+        "normal": null,
+        "parts": {}
     },
     "(214) - 叛逆的雷狼龍": {
         "no": 214,
@@ -2129,6 +2254,16 @@
         "nest": "X",
         "weakness": "冰"
     },
+    "(215) - 雷鳴的白海龍": {
+        "no": 215,
+        "name": {
+            "zh-hant": "雷鳴的白海龍",
+            "en": null
+        },
+        "egg": null,
+        "normal": null,
+        "parts": {}
+    },
     "(216) - 殘暴的黑轟龍": {
         "no": 216,
         "name": {
@@ -2140,6 +2275,16 @@
         "parts": {},
         "angry": "速度",
         "weakness": "水"
+    },
+    "(217) - 孤高的白一角龍": {
+        "no": 217,
+        "name": {
+            "zh-hant": "孤高的白一角龍",
+            "en": null
+        },
+        "egg": null,
+        "normal": null,
+        "parts": {}
     },
     "(1) - 蠻顎龍(首領)": {
         "no": 1,
@@ -2242,7 +2387,11 @@
         },
         "egg": null,
         "normal": "技巧 / 力量(白刺)",
-        "parts": {},
+        "parts": {
+            "head": "斬(白刺)",
+            "wing": "斬(白刺)",
+            "feet": "斬(白刺)"
+        },
         "angry": "速度",
         "nest": "首領",
         "weakness": "雷"
@@ -2296,10 +2445,10 @@
         "angry": "技巧",
         "nest": "首領"
     },
-    "(11) - 尾王(首領)": {
+    "(11) - 尾王傲屠娜(首領)": {
         "no": 11,
         "name": {
-            "zh-hant": "尾王(首領)",
+            "zh-hant": "尾王傲屠娜(首領)",
             "en": null
         },
         "egg": null,
@@ -2307,7 +2456,7 @@
         "parts": {
             "wing": "刺"
         },
-        "angry": ".\n・ 傲屠娜\n    ・ 身體弱點：翅膀(弱刺)\n・ 二隻翅膀時\n    ・ 普通狀態  技巧\n    ・ 生氣狀態  力量\n・ 四隻翅膀時\n    ・ 力量\n・ 六隻翅膀時\n    ・ 速度\n・ 最後凶龍化\n    ・ 技巧",
+        "angry": "\n・ 傲屠娜\n    ・ 身體弱點：翅膀(弱刺)\n・ 二隻翅膀時\n    ・ 普通狀態  技巧\n    ・ 生氣狀態  力量\n・ 四隻翅膀時\n    ・ 力量\n・ 六隻翅膀時\n    ・ 速度\n・ 最後凶龍化\n    ・ 技巧",
         "nest": "首領"
     },
     "(12) - 黑龍(首領)": {
