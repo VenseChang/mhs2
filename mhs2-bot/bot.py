@@ -6,8 +6,9 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # ----------------
+from services.callback import callback, monster
+from services.sr_nest import monsters, render_sr_info
 from services.monster_info import render_info, monster_names
-from services.callback import callback
 
 PORT = int(os.environ.get('PORT', 5000))
 
@@ -60,6 +61,20 @@ def eggs(update, context):
                                caption = caption,
                                parse_mode = ParseMode.MARKDOWN_V2)
 
+def sr(update, context):
+    command = '/sr'
+    text = update.message.text.strip()
+    name = None if text == command else text.split()[1]
+
+    if name is None:
+        reply_markup = InlineKeyboardMarkup([
+            [InlineKeyboardButton('依地形', callback_data = 'nest {} nest 0'.format(name))],
+            [InlineKeyboardButton('依魔物', callback_data = 'nest {} monsters 0'.format(name))]
+        ])
+        update.message.reply_text('ＳＲ巢穴全魔物資料，請選擇搜尋方式：', reply_markup = reply_markup)
+    else:
+        monster(update, name, 'monsters')
+
 def main():
     """Start the bot."""
     # Create the Updater and pass it your bot's token.
@@ -74,6 +89,7 @@ def main():
     dp.add_handler(CommandHandler("start", start))
     dp.add_handler(CommandHandler("help", help))
     dp.add_handler(CommandHandler("eggs", eggs))
+    dp.add_handler(CommandHandler("sr", sr))
 
     updater.dispatcher.add_handler(CallbackQueryHandler(callback))
     # on noncommand i.e message - echo the message on Telegram

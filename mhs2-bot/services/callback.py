@@ -2,34 +2,59 @@ from math import ceil
 
 from telegram import InlineKeyboardMarkup, InlineKeyboardButton
 from services.monster_info import render_info, monster_names
+from services.sr_nest import nests, monsters, render_sr_info
 from services.global_variables import RECORD_PER_PAGE
 
-def paginations(text, mode, page, total):
+def paginations(action, text, mode, page, total):
     buttons = []
     page = int(page)
     total_page = ceil(total / RECORD_PER_PAGE) - 1
     if page != 0:
-        buttons.append(InlineKeyboardButton('⬅️ 上一頁', callback_data = 'query {} {} {}'.format(text, mode, page - 1)))
+        buttons.append(InlineKeyboardButton('⬅️ 上一頁', callback_data = '{} {} {} {}'.format(action, text, mode, page - 1)))
     if page != total_page:
-        buttons.append(InlineKeyboardButton('下一頁 ➡️', callback_data = 'query {} {} {}'.format(text, mode, page + 1)))
+        buttons.append(InlineKeyboardButton('下一頁 ➡️', callback_data = '{} {} {} {}'.format(action, text, mode, page + 1)))
     return buttons
 
+def button_render(action, result, text, mode, page, names):
+    start, end = int(page) * RECORD_PER_PAGE, (int(page) + 1) * RECORD_PER_PAGE
+    markups = [[InlineKeyboardButton(name, callback_data = '{} {} {} 0'.format(result, name, mode))] for name in names[start:end]]
+    markups.append(paginations(action, text, mode, page, len(names)))
+    return InlineKeyboardMarkup(markups)
 
 def render(bot, text, mode, page = None):
     bot.callback_query.edit_message_text(render_info(text, mode))
 
 def query(bot, text, mode, page):
-    start, end = int(page) * RECORD_PER_PAGE, (int(page) + 1) * RECORD_PER_PAGE
-    names = list(map(lambda name: name.split()[-1], monster_names(text)))
-    markups = [[InlineKeyboardButton(name, callback_data = 'render {} {} 0'.format(name, mode))] for name in names[start:end]]
-    markups.append(paginations(text, mode, page, len(names)))
-    reply_markup = InlineKeyboardMarkup(markups)
-    bot.callback_query.edit_message_text('請選擇魔物：', reply_markup = reply_markup)
+    datas = list(map(lambda name: name.split()[-1], monster_names(text)))
+    bot.callback_query.edit_message_text('請選擇魔物：', reply_markup = button_render('query', 'render', text, mode, page, datas))
+
+def nest(bot, text, mode, page):
+    if mode == 'nest':
+        message = '請選擇地區：'
+        datas   = nests()
+    else:
+        message = '請選擇魔物：'
+        datas   = monsters()
+    bot.callback_query.edit_message_text(message, reply_markup = button_render('nest', 'nest_data', text, mode, page, datas))
+
+def nest_data(bot, text, mode, page = None):
+    output = render_sr_info(text, mode)
+    bot.callback_query.edit_message_text(output)
+
+def monster(bot, text, mode, page = None):
+    datas = list(filter(lambda name: text in name ,monsters()))
+    if page is None:
+        bot.message.reply_text('請選擇魔物：', reply_markup = button_render('monster', 'nest_data', text, mode, 0, datas))
+    else:
+        bot.callback_query.edit_message_text('請選擇魔物：', reply_markup = button_render('monster', 'nest_data', text, mode, page, datas))
 
 def switch(bot, method, text, mode, page):
     return {
         'render': render,
-        'query': query
+        'query': query,
+        'nest': nest,
+        'nest_data': nest_data,
+        'monster': monster
     }[method](bot, text, mode, page)
 
 def callback(bot, update):

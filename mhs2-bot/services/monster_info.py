@@ -1,7 +1,7 @@
 import json
 from urllib.request import urlopen
 
-url = 'https://raw.githubusercontent.com/VenseChang/mhs2/master/data/data.json'
+url = 'https://raw.githubusercontent.com/VenseChang/mhs2/master/data/monster_info/data.json'
 datas = json.loads(urlopen(url).read())
 
 def monster_names(text):
