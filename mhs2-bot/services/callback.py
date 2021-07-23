@@ -38,8 +38,12 @@ def nest(bot, text, mode, page):
     bot.callback_query.edit_message_text(message, reply_markup = button_render('nest', 'nest_data', text, mode, page, datas))
 
 def nest_data(bot, text, mode, page = None):
+    reply_markup = None
+    if mode == 'monsters':
+        buttons = [[InlineKeyboardButton('魔物資訊', callback_data = 'toggle_nest_info {} monsters 0'.format(text))]]
+        reply_markup = InlineKeyboardMarkup(buttons)
     output = render_sr_info(text, mode)
-    bot.callback_query.edit_message_text(output)
+    bot.callback_query.edit_message_text(output, reply_markup = reply_markup)
 
 def monster(bot, text, mode, page = None):
     datas = list(filter(lambda name: text in name ,monsters()))
@@ -48,13 +52,25 @@ def monster(bot, text, mode, page = None):
     else:
         bot.callback_query.edit_message_text('請選擇魔物：', reply_markup = button_render('monster', 'nest_data', text, mode, page, datas))
 
+def toggle_nest_info(bot, text, mode, page = None):
+    if mode == 'monsters':
+        mode = 'nest_info'
+        message = render_info(text, 'precise')
+        buttons = [[InlineKeyboardButton('巢穴資訊', callback_data = 'toggle_nest_info {} {} 0'.format(text, mode))]]
+    else:
+        mode = 'monsters'
+        message = render_sr_info(text, 'monsters')
+        buttons = [[InlineKeyboardButton('魔物資訊', callback_data = 'toggle_nest_info {} {} 0'.format(text, mode))]]
+    bot.callback_query.edit_message_text(message, reply_markup = InlineKeyboardMarkup(buttons))
+
 def switch(bot, method, text, mode, page):
     return {
         'render': render,
         'query': query,
         'nest': nest,
         'nest_data': nest_data,
-        'monster': monster
+        'monster': monster,
+        'toggle_nest_info': toggle_nest_info
     }[method](bot, text, mode, page)
 
 def callback(bot, update):
